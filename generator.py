@@ -13,7 +13,7 @@ layerImageNumber_3= 1
 ## The number of images in the layer
 layer_3_ImageCount = 4
 layer_2_ImageCount = 2
-layer_1_ImageCount = 8
+layer_1_ImageCount = 7
 
 ##########################################################################################
 
@@ -41,19 +41,18 @@ while (layerImageNumber_1 <= layer_1_ImageCount):
     
     layerImageNumber_2 = 1
     
-    while layerImageNumber_2 <= layer_2_ImageCount:
+    while (layerImageNumber_2 <= layer_2_ImageCount):
         
         layerImageNumber_3 = 1
         
-        while layerImageNumber_3 <= layer_3_ImageCount:
+        while (layerImageNumber_3 <= layer_3_ImageCount):
             
             print(str(layerImageNumber_1) + str(layerImageNumber_2) + str(layerImageNumber_3))
             output()
             outputCount += 1
             layerImageNumber_3 += 1
 
-            
-        
+               
         layerImageNumber_2 += 1
     
     layerImageNumber_1 += 1
